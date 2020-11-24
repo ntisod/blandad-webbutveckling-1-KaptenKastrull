@@ -1,0 +1,10 @@
+a{
+    border: 5px solid;
+    border-radius: 20px;
+    border-left-color: aqua;
+    border-right-color: blueviolet;
+    border-top-color: powderblue;
+    border-bottom-color: deeppink;
+    background-color: ghostwhite;
+    margin-left: 540px;
+}
