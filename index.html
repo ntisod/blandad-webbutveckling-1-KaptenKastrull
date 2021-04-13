@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main page</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS MAPP/styleindex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -12,14 +13,53 @@
             Issa Ghareeb
         </h1>
     </header>
-    <main>
-        <h2>
-            Min hemsida: 
-        </h2>
-    </main>
-    <nav>
-        <a href="./om mig/om mig2.html"> Klicka här för hemisdan</a>
-    </nav>
-    
+   
+
+  <div class="container"> 
+    <img src="./Bilder/img_lights.jpg" alt="Sky">
+    <a target="_blank" class="btn" href="./om mig/om mig2.html" > Hemsida </a>
+
+  </div>
+  <div class="container">
+
+    <img src="./Bilder/img_lights1.jpg" style="margin-left:10px;" alt="Dubai">
+    <a target="_blank" class="btn" href="./Recept/recept.html"> Recept </a>
+</div>
+<div class="container">
+
+    <img src="./Bilder/img_lights2.jfif" style="margin-left:20px;" alt="Dubai">
+    <a target="_blank" class="btn" href="./Annat/Formulär.html"> Formulär </a>
+
+  </div>
+  <div class="navbar">
+    <a href="https://www.google.se/?hl=sv">Quit</a><br><br>
+    <a href="./om mig/meny/contact.html">Kontakt</a><br>
+    <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Andra Länkar
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="./Annat/javascript.html" target="_blank">Knapp</a>
+      <a href="https://www.ntigymnasiet.se/sodertalje/" target="_blank">NTI</a>
+    </div>
+    </div> 
+  </div>
+
+
+
+<script>
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  window.onclick = function(e) {
+if (!e.target.matches('.dropbtn')) {
+var myDropdown = document.getElementById("myDropdown");
+  if (myDropdown.classList.contains('show')) {
+    myDropdown.classList.remove('show');
+  }
+}
+}
+</script>
+
 </body>
 </html>
