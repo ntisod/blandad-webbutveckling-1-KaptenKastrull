@@ -7,11 +7,12 @@ function lämnain(){
     document.getElementById("CV").innerHTML = "Ditt CV har skickats In!";
 }
 function bild(sw) {
+  
     var pic;
     if (sw == 0) {
-      pic = "utan.png"
+      pic = "../Bilder/utan.png"
     } else {
-      pic = "färg.png"
+      pic = "../Bilder/färg.png"
     }
     document.getElementById('myImage').src = pic;
   }
