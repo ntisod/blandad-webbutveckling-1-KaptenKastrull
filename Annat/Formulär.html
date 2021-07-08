@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulär</title>
+</head>
+<body style="background-color: aquamarine;">
+  
+    <p>* = obligatorisk fråga</p>
+    <h2>Ladda upp din bild</h2>
+    <p>Genom att ladda upp din bild så får vi en bekräftelse på att det är du som fyller i blanketten.</p>
+    <form action="/action_page.php">
+        <input type="file" id="minbild" name="bild">
+        
+      </form>
+
+    <h2> Ange För och Efternamn*   </h2>
+    <form>
+        <label for="fname">Ditt:</label><br>
+        <input type="text" id="fname" name="fname" value="Förnamn">
+        <input type="text" id="ename" name="ename" value="Efternamn"><br><br>
+      </form> 
+      <h2>Skola och Klass?*</h2>
+      <form>
+        <label for="klass">Klass:</label><br>
+        <input type="text" id="klass" name="klass" value="Example Te19"><br>
+        <label for="skola">Skola:</label><br>
+        <input type="text" id="skola" name="skola" value="Example NTI"><br><br>
+      </form>
+
+      <h2>Program val*</h2>
+
+     <form>
+     <input type="radio" id="Engeering" name="program" value="ShowDiv" onclick="showDiv()">
+     <label for="Engeering">Engeering</label><br>
+     <input type="radio" id="Software" name="program" value="ShowDiv2" onclick="showDiv2()">
+     <label for="Software">Software</label><br>
+     </form> 
+
+     <div id="Div1" style="display: none;" class="val">
+      <fieldset>
+        <p>
+          Engeering Val
+        </p>
+
+        <label for="course"> Välj ditt första val!
+        </label>
+        <select id="course" name="val">
+          <option value="1">VÄLJ</option>
+          <option value="2">Engelska 7</option>
+          <option value="3">Fysik 2</option>
+          <option value="4">Entreprenörskap</option>
+          <option value="5">Modersmål</option>
+          <option value="6">Digital skapande 1</option>
+          <option value="7">Matte 5</option>
+          <option value="8">Webb server programmering 1</option>
+        </select>
+
+        <label for="course"> Välj ditt andra val!
+        </label>
+        <select id="bourse" name="val">
+          <option value="1">VÄLJ</option>
+          <option value="2">Engelska 7</option>
+          <option value="3">Fysik 2</option>
+          <option value="4">Entreprenörskap</option>
+          <option value="5">Modersmål</option>
+          <option value="6">Digital skapande 1</option>
+          <option value="7">Matte 5</option>
+          <option value="8">Webb server programmering 1</option>
+        </select>
+
+        <label for="course"> Välj ditt reserv val!
+        </label>
+        <select id="dourse" name="val">
+          <option value="1">VÄLJ</option>
+          <option value="2">Engelska 7</option>
+          <option value="3">Fysik 2</option>
+          <option value="4">Entreprenörskap</option>
+          <option value="5">Modersmål</option>
+          <option value="6">Digital skapande 1</option>
+          <option value="7">Matte 5</option>
+          <option value="8">Webb server programmering 1</option>
+        </select>
+
+      </fieldset>
+
+      <div id="Div2" style="display: none;" class="val">
+        <fieldset>
+          <p>
+            Software Val
+          </p>
+  
+          <label for="course"> Välj ditt första val!
+          </label>
+          <select id="cfurse" name="val">
+            <option value="1">VÄLJ</option>
+            <option value="2">Engelska 7</option>
+            <option value="3">Fysik 2</option>
+            <option value="4">Entreprenörskap</option>
+            <option value="5">Modersmål</option>
+            <option value="6">Digital skapande 1</option>
+            <option value="7">Matte 5</option>
+            <option value="8">Webb server programmering 1</option>
+          </select>
+  
+          <label for="course"> Välj ditt andra val!
+          </label>
+          <select id="vourse" name="val">
+            <option value="1">VÄLJ</option>
+            <option value="2">Engelska 7</option>
+            <option value="3">Fysik 2</option>
+            <option value="4">Entreprenörskap</option>
+            <option value="5">Modersmål</option>
+            <option value="6">Digital skapande 1</option>
+            <option value="7">Matte 5</option>
+            <option value="8">Webb server programmering 1</option>
+          </select>
+  
+          <label for="course"> Välj ditt reserv val!
+          </label>
+          <select id="sourse" name="val">
+            <option value="1">VÄLJ</option>
+            <option value="2">Engelska 7</option>
+            <option value="3">Fysik 2</option>
+            <option value="4">Entreprenörskap</option>
+            <option value="5">Modersmål</option>
+            <option value="6">Digital skapande 1</option>
+            <option value="7">Matte 5</option>
+            <option value="8">Webb server programmering 1</option>
+          </select>
+  
+        </fieldset>
+
+     
+      <script src="formularscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.lazy{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),  url("../Bilder/backgrundv2v2.jpg");
+    height: 100vh;
+    -webkit-background: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a{
+    color: #FFFF;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.nav-area li a:hover{
+    background: #FFFF;
+    color: #333;
+}
+
+.logo img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+
+.välkommen{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.välkommen h1{
+    text-align: center;
+    color: #FFFF;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.välkommen a{
+    border: 1px solid #FFFF;
+     padding: 10px 25px;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 18px;
+     margin-top: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     display: inline-block;
+     color: #FFFF;
+}
+.välkommen a:hover{
+    background: #FFFF;
+    color: #333;
+}
